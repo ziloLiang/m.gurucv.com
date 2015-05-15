@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<title>名录</title>
+		<link rel="stylesheet" href="../../../cdn.gurucv.com/Mobile/css/app.css" />
+		<link rel="stylesheet" href="../../../cdn.gurucv.com/Mobile/css/message.css" />
+		<script type="text/javascript"  src="../../js/lib/require.js" data-main="../../js/main" ></script>
+	</head>
+	<body>
+	  <header class="header" ng-controller="HeaderController">
+  	  <header ng-hide="search.searchFocusOn" class="blue-header">
+        <a class="header-left inform-btn"></a>
+        <div class="center-tab">
+          <span class="">消息</span>
+          <span class="current">名册</span>
+        </div>
+        <a class="header-right nav-level1-btn"></a>
+      </header>
+      <div class="search-warp" ng-class="{searchOn: search.searchFocusOn}" ng-controller="SearchController">
+        <div class="search-placeholder" ng-click="searchFocus();" ><span class="search-icon"></span>搜索</div>
+        <div class="search-screen">
+          <input class="search-inp" type="text" placeholder="搜索" focus-on = "search.searchFocusOn" >
+          <span class="search-cancel"  ng-click="searchCancel();" >取 消</span>
+        </div>
+        <div class="search-mask"></div>
+      </div>
+	  </header>
+	  <div id="messageWarpper" iscroll  ng-controller="MessageWarpper" class="scrollWapper" >
+	    <div id="scroller" ng-click="showScroller();">
+	      <div class="scroller-loading {{upClass}}">{{upLoadText}}</div>
+	      <ul class="message-list">
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >10</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+            <p class="msg-content">4月将近，各种欧美大片又纷纷进入中国市场血拼。其中有侏罗纪公园4最令人瞩目。不知道这部科幻大片能否再掀起一股恐龙热潮</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >1</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >10</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+            <p class="msg-content">4月将近，各种欧美大片又纷纷进入中国市场血拼。其中有侏罗纪公园4最令人瞩目。不知道这部科幻大片能否再掀起一股恐龙热潮</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >1</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >1</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >1</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >10</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+            <p class="msg-content">4月将近，各种欧美大片又纷纷进入中国市场血拼。其中有侏罗纪公园4最令人瞩目。不知道这部科幻大片能否再掀起一股恐龙热潮</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >1</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >1</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+          <li>
+            <img class="msg-header" ng-src="/MobileProjects/cdn.gurucv.com/Mobile/images/demoimage.png" />
+            <span class="msg-count" >1</span>
+            <p class="msg-name">王鹏飞</p>
+            <p class="msg-title">你好，大片抢先看</p>
+          </li>
+	      </ul>
+	      <div class="scroller-loading {{downClass}}">{{downLoadText}}</div>
+      </div>
+	  </div>
+	</body>
+</html>

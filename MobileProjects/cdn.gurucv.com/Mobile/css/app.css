@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: #e3eaef;
+  font: 400 14px/1.4 "microsoft yahei", "微软雅黑", Arial, simsun;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+input {
+  outline: none;
+  font-family: "microsoft yahei";
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9000;
+}
+.header-left,
+.header-right {
+  position: absolute;
+}
+.search-warp {
+  position: relative;
+  height: 40px;
+  padding: 8px 15px;
+  background-color: #e2e2e2;
+}
+.search-warp .search-screen {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  padding: 8px 15px;
+  background-color: #eee;
+}
+.search-warp .search-screen .search-inp {
+  width: 80%;
+  padding: 0 10px;
+  height: 24px;
+  line-height: 24px;
+  background-color: #fff;
+  border: 0;
+}
+.search-warp .search-screen .search-cancel {
+  float: right;
+  height: 24px;
+  line-height: 24px;
+  color: #2797df;
+}
+.search-warp .search-placeholder {
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #fff;
+  color: #999;
+}
+.search-warp .search-placeholder .search-icon {
+  display: inline-block;
+  height: 18px;
+  width: 15px;
+  background: url("../images/app_index_icon.png") no-repeat -48px 0px;
+  vertical-align: middle;
+}
+.search-warp .search-mask {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.search-warp.searchOn .search-screen {
+  display: block;
+  z-index: 101;
+}
+.search-warp.searchOn .search-mask {
+  display: block;
+  z-index: 100;
+}
+.scrollWapper {
+  height: 100%;
+  overflow: hidden;
+}

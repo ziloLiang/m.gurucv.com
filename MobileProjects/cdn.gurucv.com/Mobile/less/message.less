@@ -1,0 +1,122 @@
+@import "utils.less";
+@import "option.less";
+
+.blue-header{
+    @paddingTop: 10px;
+    @paddingLeft: 15px;
+    height: 44px;
+    background-color: @mainColor;
+    padding: @paddingTop @paddingLeft;
+    text-align: center;
+    .inform-btn,.nav-level1-btn{
+        top: @paddingTop + 2px;
+        height: 20px;
+        width: 20px;
+        background: url(@iconPath) no-repeat 0 2px;
+    }
+    .inform-btn{
+        left: @paddingLeft;
+    }
+    .nav-level1-btn{
+        right: @paddingLeft;
+        background-position: -25px 2px;
+    }
+    .center-tab{
+        display: inline-block;
+        height: 24px;
+        margin: 0 auto;
+        span{
+            float: left;
+            height: 24px; 
+            line-height: 24px;
+            font-size: 1em;
+            width: 60px;
+            text-align: center;
+            color: #fff;
+            background-color: darken(@mainColor, 10%);
+            &:first-child{
+                .border-radius(3px 0 0 3px);
+            }
+            &:last-child{
+                .border-radius(0 3px 3px 0);
+            }
+            &.current{
+                background-color: lighten(@mainColor, 10%);
+            } 
+        }
+    }
+}
+
+#messageWarpper{
+    box-sizing: content-box;
+    background-color: #312c2c;
+    .myScrollbar{
+        display: none !important;
+    }
+    .scroller-loading{
+        height: 84px;
+        line-height: 84px;
+        background-color: #312c2c;
+        color: #fff;
+        text-align: center;
+    }
+    .message-list{
+        background-color: #FFFFFF;
+    }
+}
+.message-list{
+    @paddingTop: 10px;
+    @paddingLeft: 10px;
+    position: relative;
+    background-color: #FFFFFF;
+    min-height: 60px;
+    li{
+        position: relative;
+        box-sizing: content-box;
+        padding: @paddingTop @paddingLeft @paddingTop 60px;
+        background-color: #fff;
+        border-bottom: 1px solid #e5e5e5;
+        overflow: hidden;
+        p{
+            line-height: 1em;
+            overflow: hidden;
+        }
+        .msg-count{
+            position: absolute;
+            top: @paddingTop;
+            right: @paddingLeft;
+            height: 16px;
+            font: 12px/16px "microsoft yahei";
+            text-align: center;
+            padding:0 5px;
+            background-color: @orgColor;
+            color: #fff;
+            .border-radius(16px);
+        }
+        .msg-name{
+            font-size: 1em;
+            height: 16px;
+            line-height: 1;
+            color: #333;
+            margin-bottom: 7px;
+        }
+        .msg-title{
+            margin-bottom: 6px;
+        }
+        .msg-title,.msg-content{
+            font-family: "黑体","microsoft yahei";
+            height: 13px;
+            line-height: 13px;
+            font-size: 0.9em;
+            color: #999;
+        }
+        .msg-header{
+            position: absolute;
+            top: @paddingTop;
+            left: @paddingLeft;
+            height: 36px;
+            width: 36px;
+        }
+    }
+
+}

@@ -1,0 +1,124 @@
+.blue-header {
+  height: 44px;
+  background-color: #2797df;
+  padding: 10px 15px;
+  text-align: center;
+}
+.blue-header .inform-btn,
+.blue-header .nav-level1-btn {
+  top: 12px;
+  height: 20px;
+  width: 20px;
+  background: url("../images/app_index_icon.png") no-repeat 0 2px;
+}
+.blue-header .inform-btn {
+  left: 15px;
+}
+.blue-header .nav-level1-btn {
+  right: 15px;
+  background-position: -25px 2px;
+}
+.blue-header .center-tab {
+  display: inline-block;
+  height: 24px;
+  margin: 0 auto;
+}
+.blue-header .center-tab span {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  font-size: 1em;
+  width: 60px;
+  text-align: center;
+  color: #fff;
+  background-color: #1b7bb8;
+}
+.blue-header .center-tab span:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -ms-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.blue-header .center-tab span:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+.blue-header .center-tab span.current {
+  background-color: #53ace6;
+}
+#messageWarpper {
+  box-sizing: content-box;
+  background-color: #312c2c;
+}
+#messageWarpper .myScrollbar {
+  display: none !important;
+}
+#messageWarpper .scroller-loading {
+  height: 84px;
+  line-height: 84px;
+  background-color: #312c2c;
+  color: #fff;
+  text-align: center;
+}
+#messageWarpper .message-list {
+  background-color: #FFFFFF;
+}
+.message-list {
+  position: relative;
+  background-color: #FFFFFF;
+  min-height: 60px;
+}
+.message-list li {
+  position: relative;
+  box-sizing: content-box;
+  padding: 10px 10px 10px 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+.message-list li p {
+  line-height: 1em;
+  overflow: hidden;
+}
+.message-list li .msg-count {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 16px;
+  font: 12px/16px "microsoft yahei";
+  text-align: center;
+  padding: 0 5px;
+  background-color: #f06a01;
+  color: #fff;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  border-radius: 16px;
+}
+.message-list li .msg-name {
+  font-size: 1em;
+  height: 16px;
+  line-height: 1;
+  color: #333;
+  margin-bottom: 7px;
+}
+.message-list li .msg-title {
+  margin-bottom: 6px;
+}
+.message-list li .msg-title,
+.message-list li .msg-content {
+  font-family: "黑体", "microsoft yahei";
+  height: 13px;
+  line-height: 13px;
+  font-size: 0.9em;
+  color: #999;
+}
+.message-list li .msg-header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 36px;
+  width: 36px;
+}

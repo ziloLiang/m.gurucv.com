@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macrosage.Model", "Macrosage.Model\Macrosage.Model.csproj", "{1997E810-3AAA-4239-9AAE-6436D410530D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macrosage.Data.SqlServer", "Macrosage.Data.SqlServer\Macrosage.Data.SqlServer.csproj", "{308B38A2-FF9A-4DD6-B59C-EAB3ECF76AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macrosage.BLL", "Macrosage.BLL\Macrosage.BLL.csproj", "{4307DBCB-BED7-4896-8979-2F86C322E499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macrosage.Utility", "Macrosage.Utility\Macrosage.Utility.csproj", "{6BA9B60D-99FF-47C0-8F1E-D7EA876CCF9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7C053B76-4AA4-4F73-8764-D1F0FF579D8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{109772E5-257B-4112-B0AE-84F3713B6BA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{77D9430A-3AC8-415F-8C4F-E6200F3204F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cdn.gurucv.com", "cdn.gurucv.com\cdn.gurucv.com.csproj", "{90A09337-3CCF-4C1D-BD50-58C473AD5A58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m.gurucv.com", "m.gurucv.com\m.gurucv.com.csproj", "{7E6AD5DC-81AC-46FF-AF40-26A7469ACA94}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-server:8080/tfs/macrosageteam
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = cdn.gurucv.com\\cdn.gurucv.com.csproj
+		SccProjectTopLevelParentUniqueName1 = Macrosage.Mobile.GuruCV.sln
+		SccProjectName1 = cdn.gurucv.com
+		SccLocalPath1 = cdn.gurucv.com
+		SccProjectUniqueName2 = m.gurucv.com\\m.gurucv.com.csproj
+		SccProjectTopLevelParentUniqueName2 = Macrosage.Mobile.GuruCV.sln
+		SccProjectName2 = m.gurucv.com
+		SccLocalPath2 = m.gurucv.com
+		SccProjectUniqueName3 = Macrosage.BLL\\Macrosage.BLL.csproj
+		SccProjectTopLevelParentUniqueName3 = Macrosage.Mobile.GuruCV.sln
+		SccProjectName3 = Macrosage.BLL
+		SccLocalPath3 = Macrosage.BLL
+		SccProjectUniqueName4 = Macrosage.Data.SqlServer\\Macrosage.Data.SqlServer.csproj
+		SccProjectTopLevelParentUniqueName4 = Macrosage.Mobile.GuruCV.sln
+		SccProjectName4 = Macrosage.Data.SqlServer
+		SccLocalPath4 = Macrosage.Data.SqlServer
+		SccProjectUniqueName5 = Macrosage.Model\\Macrosage.Model.csproj
+		SccProjectTopLevelParentUniqueName5 = Macrosage.Mobile.GuruCV.sln
+		SccProjectName5 = Macrosage.Model
+		SccLocalPath5 = Macrosage.Model
+		SccProjectUniqueName6 = Macrosage.Utility\\Macrosage.Utility.csproj
+		SccProjectTopLevelParentUniqueName6 = Macrosage.Mobile.GuruCV.sln
+		SccProjectName6 = Macrosage.Utility
+		SccLocalPath6 = Macrosage.Utility
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1997E810-3AAA-4239-9AAE-6436D410530D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1997E810-3AAA-4239-9AAE-6436D410530D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1997E810-3AAA-4239-9AAE-6436D410530D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1997E810-3AAA-4239-9AAE-6436D410530D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308B38A2-FF9A-4DD6-B59C-EAB3ECF76AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308B38A2-FF9A-4DD6-B59C-EAB3ECF76AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308B38A2-FF9A-4DD6-B59C-EAB3ECF76AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308B38A2-FF9A-4DD6-B59C-EAB3ECF76AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4307DBCB-BED7-4896-8979-2F86C322E499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4307DBCB-BED7-4896-8979-2F86C322E499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4307DBCB-BED7-4896-8979-2F86C322E499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4307DBCB-BED7-4896-8979-2F86C322E499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA9B60D-99FF-47C0-8F1E-D7EA876CCF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA9B60D-99FF-47C0-8F1E-D7EA876CCF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA9B60D-99FF-47C0-8F1E-D7EA876CCF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA9B60D-99FF-47C0-8F1E-D7EA876CCF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A09337-3CCF-4C1D-BD50-58C473AD5A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A09337-3CCF-4C1D-BD50-58C473AD5A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A09337-3CCF-4C1D-BD50-58C473AD5A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A09337-3CCF-4C1D-BD50-58C473AD5A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6AD5DC-81AC-46FF-AF40-26A7469ACA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6AD5DC-81AC-46FF-AF40-26A7469ACA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6AD5DC-81AC-46FF-AF40-26A7469ACA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6AD5DC-81AC-46FF-AF40-26A7469ACA94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{308B38A2-FF9A-4DD6-B59C-EAB3ECF76AEA} = {109772E5-257B-4112-B0AE-84F3713B6BA8}
+		{4307DBCB-BED7-4896-8979-2F86C322E499} = {109772E5-257B-4112-B0AE-84F3713B6BA8}
+		{6BA9B60D-99FF-47C0-8F1E-D7EA876CCF9C} = {109772E5-257B-4112-B0AE-84F3713B6BA8}
+		{1997E810-3AAA-4239-9AAE-6436D410530D} = {109772E5-257B-4112-B0AE-84F3713B6BA8}
+		{90A09337-3CCF-4C1D-BD50-58C473AD5A58} = {7C053B76-4AA4-4F73-8764-D1F0FF579D8C}
+		{7E6AD5DC-81AC-46FF-AF40-26A7469ACA94} = {7C053B76-4AA4-4F73-8764-D1F0FF579D8C}
+	EndGlobalSection
+EndGlobal
